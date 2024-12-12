@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:black;
+    height: 90px;
+   
+}
+.navbar ul {
+      display: flex;
+      font-size: 20px;
+       gap: 30px;
+       margin-left: 560px;
+     
+     
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    &&:hover{
+        color: white;
+        background-color: red;
+    
+       }
+  
+}
+.coffe{
+    color:white;
+    font-size: 50px;
+    margin-left: 40px;
+}
+.hero{
+    background-image: url(/coffe2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.coffe1{
+    color:white;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 200px;
+}
+.coffe2{
+    color:white;
+    margin-left: 40px;
+    
+}
+.bt{
+    height: 60px;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    &&:hover{
+        color: black;
+        background-color: red;
+    }
+}
+.content{
+    display: flex;
+    gap: 40px;
+}
+.content1{
+   margin-left: 40px;
+}
+.content1 h2{
+    color:black;
+    margin-top: 60px;
+    font-size: 50px;
+    margin-left: 60px;
+}
+.content1 h3{
+    color:black;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.content1 h4{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.content2 img{
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    &&:hover{
+        border: 2px solid red;
+    }
+}
+.menu{
+    align-items: center;
+    font-size: 50px;
+    margin-left: 500px;
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+.card1 img{
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+}
+.color{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+    &&:hover{
+        background-color: red;
+    }
+}
+.color h2{
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.color h3{
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.bts{
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+  
+    color: black;
+    border: 2px solid white;
+}
+.men{
+    font-size: 50px;
+    margin-left: 90px;
+}
+.parent{
+    display: flex;
+    gap: 80px;
+    margin-left: 170px;
+}
+.child1 h4{
+     margin-top: 50px;
+     font-size: 20px;
+}
+.child1 h2{
+    font-size: 40px;
+}
+.head{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.box{
+    display: flex;
+    gap: 30px;
+}
+.box1{
+    border: 2px solid  pink;
+    margin-left: 60px;
+}
+.box1 img{
+    height: 400px;
+    width: 550px;
+    
+}
+.boxxing h2{
+    margin-left: 70px;
+    font-size: 30px;
+   
+}
+.boxxing h4{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.b{
+    display: flex;
+}
+.b2{
+    height: 50px;
+    width: 200px;
+    margin-left: 500px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    &&:hover{
+        border: 2px solid red;
+    }
+}
+.b1{
+    height: 50px;
+    width: 200px;
+    margin-left: 150px;
+    border: 2px solid black;
+    border-radius: 20px;
+    &&:hover{
+        border: 2px solid red;
+    }
+}
+.name{
+    height: 50px;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 380px;
+    font-size: 20px;
+    color: black;
+}
+.name1{
+    height: 80px;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 380px;
+    font-size: 20px;
+     color: black;
+}
+.btu{
+    height: 50px;
+    width: 150px;
+    margin-left: 630px;
+    color: white;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    &&:hover{
+        background-color: red;
+    }
+}
+.footer{
+    background-color: black;
+    height: 300px;
+    width: 1350px;
+}
+.footer1  {
+    display: flex;
+    margin-left: 580px;
+   
+}
+.footer1 li a{
+    margin-top: 200px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.phone{
+    display: flex;
+    gap: 20px;
+    margin-left: 500px;
+}
+.phone h2{
+    margin-top: 30px;
+    color: white;
+}
+.phone h3{
+    margin-top: 30px;
+    color: white;
+}
+.name2{
+    height: 40px;
+    width: 600px;
+   margin-top: 40px;
+    margin-left: 380px;
+    font-size: 20px;
+     color: white;
+     &&:hover{
+        background-color: red;
+     }
+}
+
+
+.name3{
+    height: 60px;
+    width: 1350px;
+   margin-top: 40px;
+  background-color: red;
+    font-size: 20px;
+     color: white;
+}
